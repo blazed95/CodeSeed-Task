@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Express Server for code-seed task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx nodemon server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.5.1",
+    "sequelize": "^6.17.0",
+    "sequelize-auto": "^0.8.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

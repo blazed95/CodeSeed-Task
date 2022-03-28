@@ -1,0 +1,24 @@
+.app-container {
+  height: 100vh;
+  width: 100%;
+  background: #090707ef;
+
+  .title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 25px 0 10px 25px;
+  }
+  .form-container {
+    background-color: #08080cad;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--formContainerWidth);
+    height: var(--formContainerHeight);
+  }
+}
