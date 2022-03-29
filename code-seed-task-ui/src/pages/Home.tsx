@@ -7,7 +7,6 @@ import './Home.scss';
 function HomePage() {
   const { beers } = useBeerContext();
   return (
-    // <EditBeerModal isShown={isShown} hide={toggle} modalContent={content} />
     <div className='app-container'>
       <div className='form-container'>
         <div className='title'>Cheers</div>
