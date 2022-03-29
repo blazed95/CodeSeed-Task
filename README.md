@@ -1,4 +1,4 @@
-# Code Seed Full Stack Project by Vlasis Ioannidis
+# Todo-List Full Stack Project by Vlasis Ioannidis
 
 ## Install Front End Dependencies 
 `$ cd code-seed-task-ui`<br />
