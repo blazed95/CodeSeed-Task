@@ -12,12 +12,7 @@ export interface ModalProps {
 }
 
 export const EditBeerModal: FunctionComponent<ModalProps> = ({ isShown, hide, beer }) => {
-  // const updateBeer = (updatedBeer: BeerInterface) => {
-  //   console.log(updatedBeer);
-  //   // hide Modal
-  //   hide();
-  //   // Update State through BEER
-  // };
+
   const modalContent = <Form action='UPDATE' beer={beer} hideModal={hide}></Form>;
 
   const modal = (
